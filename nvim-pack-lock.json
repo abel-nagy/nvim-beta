@@ -1,0 +1,108 @@
+{
+  "plugins": {
+    "alpha-nvim": {
+      "rev": "3979b01",
+      "src": "https://github.com/goolord/alpha-nvim"
+    },
+    "blink.cmp": {
+      "rev": "40380e7",
+      "src": "https://github.com/Saghen/blink.cmp"
+    },
+    "colortils.nvim": {
+      "rev": "948d4ed",
+      "src": "https://github.com/max397574/colortils.nvim"
+    },
+    "commentary.nvim": {
+      "rev": "2edd724",
+      "src": "https://github.com/shoukoo/commentary.nvim"
+    },
+    "darkearth-nvim": {
+      "rev": "1a33a92",
+      "src": "https://github.com/ptdewey/darkearth-nvim"
+    },
+    "floating-help.nvim": {
+      "rev": "00a0de9",
+      "src": "https://github.com/Tyler-Barham/floating-help.nvim"
+    },
+    "lualine.nvim": {
+      "rev": "3946f01",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "mason-lspconfig.nvim": {
+      "rev": "d7b5feb",
+      "src": "https://github.com/mason-org/mason-lspconfig.nvim"
+    },
+    "mason-tool-installer.nvim": {
+      "rev": "517ef59",
+      "src": "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
+    },
+    "mason.nvim": {
+      "rev": "ad7146a",
+      "src": "https://github.com/mason-org/mason.nvim"
+    },
+    "miasma.nvim-transparent": {
+      "rev": "8594ab2",
+      "src": "https://github.com/kcmnd/miasma.nvim-transparent"
+    },
+    "mini-icons": {
+      "rev": "ff2e4f1",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "mini.icons": {
+      "rev": "ff2e4f1",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "nvim-highlight-colors": {
+      "rev": "e0c4a58",
+      "src": "https://github.com/brenoprata10/nvim-highlight-colors"
+    },
+    "nvim-lspconfig": {
+      "rev": "2010fc6",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-notify": {
+      "rev": "8701bec",
+      "src": "https://github.com/rcarriga/nvim-notify"
+    },
+    "nvim-treesitter": {
+      "rev": "896e92a7",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter",
+      "version": "'main'"
+    },
+    "nvim-web-devicons": {
+      "rev": "8dcb311",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    },
+    "oil.nvim": {
+      "rev": "7e1cd77",
+      "src": "https://github.com/stevearc/oil.nvim"
+    },
+    "pendulum-nvim": {
+      "rev": "b884353",
+      "src": "https://github.com/ptdewey/pendulum-nvim"
+    },
+    "plenary.nvim": {
+      "rev": "b9fd522",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "plugin-view.nvim": {
+      "rev": "369c80a",
+      "src": "https://github.com/adriankarlen/plugin-view.nvim"
+    },
+    "pomo": {
+      "rev": "aa8decc",
+      "src": "https://github.com/epwalsh/pomo.nvim"
+    },
+    "pomo.nvim": {
+      "src": "https://github.com/epwalsh/pomo.nvim"
+    },
+    "telescope.nvim": {
+      "rev": "7dbbcfd",
+      "src": "https://github.com/nvim-telescope/telescope.nvim"
+    },
+    "which-key.nvim": {
+      "rev": "3aab214",
+      "src": "https://github.com/folke/which-key.nvim"
+    }
+  }
+}
