@@ -11,9 +11,13 @@ map('n', 'Q', '<cmd>q<CR>', { desc = 'Close current pane', noremap = true, silen
 
 -- TIP: Disable arrow keys in normal mode
 map('n', '<left>', '<cmd>echo "Use h to move!!"<CR>', opts)
+map('i', '<left>', '<cmd>echo "Use h to move!!"<CR>', opts)
 map('n', '<right>', '<cmd>echo "Use l to move!!"<CR>', opts)
+map('i', '<right>', '<cmd>echo "Use l to move!!"<CR>', opts)
 map('n', '<up>', '<cmd>echo "Use k to move!!"<CR>', opts)
+map('i', '<up>', '<cmd>echo "Use k to move!!"<CR>', opts)
 map('n', '<down>', '<cmd>echo "Use j to move!!"<CR>', opts)
+map('i', '<down>', '<cmd>echo "Use j to move!!"<CR>', opts)
 
 -- Keybinds to make split navigation easier.
 map('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window', noremap = true, silent = true })
