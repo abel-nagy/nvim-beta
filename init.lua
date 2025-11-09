@@ -1,11 +1,8 @@
 vim.loader.enable()
-
 require('options')
 require('keymaps')
 require('autocmds')
 require('lsp')
 require('completion')
 require('plugins')
--- require('themes.miasma-transparent')
 require('themes.darkearth')
-vim.notify = require('notify')
