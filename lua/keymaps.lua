@@ -8,6 +8,7 @@ local opts = { noremap = true, silent = true }
 map('n', '<Space><Space>', '<cmd>nohlsearch<CR>', opts)
 map('n', 'W', '<cmd>w<CR>', { desc = 'Save file', noremap = true, silent = true })
 map('n', 'Q', '<cmd>q<CR>', { desc = 'Close current pane', noremap = true, silent = true })
+map('n', '<M-q>', '<cmd>qa<CR>', { desc = 'Close all pane', noremap = true, silent = true })
 
 -- TIP: Disable arrow keys in normal mode
 map('n', '<left>', '<cmd>echo "Use h to move!!"<CR>', opts)
