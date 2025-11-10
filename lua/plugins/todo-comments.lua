@@ -70,11 +70,4 @@ local config = {
 
 require('todo-comments').setup(config)
 
-vim.keymap.set('n', '<Leader>ft', ':TodoTelescope<CR>', { desc = 'Find TODOs', noremap = true, silent = true })
-
--- TODO: asd
--- HACK: asd
--- WARN: asd
--- PERF: asd
--- NOTE: asd
--- TEST: asd
+vim.keymap.set('n', 'ft', ':TodoTelescope<CR>', { desc = 'Find TODOs', noremap = true, silent = true })
