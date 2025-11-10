@@ -13,6 +13,9 @@ vim.keymap.set('n', 'fh', builtin.help_tags, { desc = 'Find Help', noremap = tru
 vim.keymap.set('n', 'ff', builtin.find_files, { desc = 'Find Files', noremap = true, silent = true })
 
 telescope.setup({
+    defaults = {
+        path_display = { 'smart' }
+    },
     pickers = {
         help_tags = {
             attach_mappings = function(prompt_bufnr, map)
