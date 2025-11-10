@@ -1,3 +1,5 @@
+![Welcome Screen](./assets/welcome.png)
+
 # NeoVim 0.12 Config
 **Current version:** v0.12.0-dev-1567   
 **Build number:** g17bcf86cab
@@ -73,3 +75,4 @@
 - [ ] Update which-key config to describe unfinished keycombinations (like '<Leader>f' is the starting combination for telescope find commands)
 - [ ] Finalize theming/coloring
 - [ ] Enable italics
+- [ ] Add image rendering support
