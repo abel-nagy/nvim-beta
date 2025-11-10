@@ -7,7 +7,7 @@
 
 # TODO
 - [x] Check render-markdown.nvim dependency: [tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown)
-- [ ] Complete blink.cmp setup
+- [x] Complete blink.cmp setup
 - [ ] Fix welcome screen logo coloring issue
 - [ ] Fix welcome screen dynamic text issue
 - [ ] Add sensible git/github related plugins
