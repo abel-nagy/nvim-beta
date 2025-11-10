@@ -1,12 +1,8 @@
-vim.pack.add({
-    { src = 'https://github.com/nvim-treesitter/nvim-treesitter', version = 'main' },
-})
-
 local treesitter = require('nvim-treesitter')
 local ts_languages = { 'lua', 'fish', 'markdown', 'markdown_inline' }
 treesitter.install(ts_languages)
 
-for index, value in ipairs(ts_languages) do
+for _, value in ipairs(ts_languages) do
     vim.api.nvim_create_autocmd('FileType', {
         pattern = { value },
         callback = function()

@@ -1,5 +1,3 @@
-vim.pack.add({ { src = 'https://github.com/epwalsh/pomo.nvim', name = 'pomo' } })
-require('notify')
 local opts = {
     sessions = {
         pomodoro = {

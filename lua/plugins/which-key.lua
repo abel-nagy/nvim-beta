@@ -1,5 +1,3 @@
-vim.pack.add({ 'https://github.com/folke/which-key.nvim' })
-
 ---@class wk.Opts
 local opts = {
     ---@type false | 'classic' | 'modern' | 'helix'

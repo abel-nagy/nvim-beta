@@ -1,9 +1,3 @@
-vim.pack.add({
-    { src = 'https://github.com/goolord/alpha-nvim' },
-    { src = 'https://github.com/nvim-mini/mini.icons' },
-    { src = 'https://github.com/nvim-lua/plenary.nvim' }
-})
-
 -- require'alpha'.setup(require'alpha.themes.theta'.config)
 local alpha = require 'alpha'
 local dashboard = require 'alpha.themes.dashboard'

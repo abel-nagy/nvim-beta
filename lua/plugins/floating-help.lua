@@ -1,11 +1,9 @@
-vim.pack.add({ 'https://github.com/Tyler-Barham/floating-help.nvim' })
-
 local plugin = require('floating-help')
 
-local options = {
+plugin.setup({
     width = 0.5
-}
-plugin.setup(options)
+})
+
 vim.keymap.set('n', '<F1>', plugin.toggle)
 
 local function cmd_abbrev(abbrev, expansion)

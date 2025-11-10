@@ -1,7 +1,3 @@
-vim.pack.add({
-    { src = 'https://github.com/folke/todo-comments.nvim'},
-    { src = 'https://github.com/nvim-lua/plenary.nvim'},
-})
 local config = {
   signs = true, -- show icons in the signs column
   sign_priority = 8, -- sign priority

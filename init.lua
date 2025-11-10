@@ -1,9 +1,10 @@
 vim.loader.enable()
-require('options')
-require('keymaps')
-require('autocmds')
+
+require('core.options')
+require('core.keymaps')
+require('core.autocmds')
+
 require('themes.darkearth')
 require('assets.darkearth-colors')
-require('lsp')
-require('completion')
-require('plugins')
+
+require('plugin-manager')
