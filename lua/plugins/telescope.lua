@@ -10,12 +10,7 @@ local actions = require('telescope.actions')
 local action_state = require('telescope.actions.state')
 
 vim.keymap.set('n', 'fh', builtin.help_tags, { desc = 'Find Help', noremap = true, silent = true })
-vim.keymap.set('n', 'ff', function()
-    local ok = pcall(builtin.git_files)
-    if not ok then
-        builtin.find_files({ cwd = vim.loop.cwd() })
-    end
-end, { desc = 'Find Files', noremap = true, silent = true })
+vim.keymap.set('n', 'ff', builtin.find_files, { desc = 'Find Files', noremap = true, silent = true })
 
 telescope.setup({
     pickers = {
