@@ -10,16 +10,16 @@ require('nvim-web-devicons').setup()
 local plugin = require('lualine')
 
 ThemeColors = {
-    bg = '#222222',
-    black = '#1c1c1c',
-    grey = '#666666',
-    brown = '#685742',
-    green_bright = '#5f875f',
-    red = '#B36D43',
-    green_select = '#78824B',
-    orange = '#bb7744',
-    golden = '#C9A554',
-    white = '#D7C483',
+    bg = Colors.Zeus,
+    black = Colors.Woodsmoke,
+    grey = Colors.IronsideGray,
+    brown = Colors.TobaccoBrown,
+    green_bright = Colors.GladeGreen,
+    red = Colors.SantaFe,
+    green_select = Colors.Dingley,
+    orange = Colors.Copper,
+    golden = Colors.Roti,
+    white = Colors.Putty,
 }
 
         local conditions = {

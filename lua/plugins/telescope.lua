@@ -9,8 +9,8 @@ local builtin = require('telescope.builtin')
 local actions = require('telescope.actions')
 local action_state = require('telescope.actions.state')
 
-vim.keymap.set('n', 'fh', builtin.help_tags, { desc = 'Find Help', noremap = true, silent = true })
-vim.keymap.set('n', 'ff', builtin.find_files, { desc = 'Find Files', noremap = true, silent = true })
+vim.keymap.set('n', '<Leader>fh', builtin.help_tags, { desc = 'Find Help', noremap = true, silent = true })
+vim.keymap.set('n', '<Leader>ff', builtin.find_files, { desc = 'Find Files', noremap = true, silent = true })
 
 telescope.setup({
     pickers = {

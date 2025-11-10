@@ -113,6 +113,7 @@ local opts = {
             { '^lua%s+',          '' },
             { '^call%s+',         '' },
             { '^:%s*',            '' },
+            { '<Leader>f',            'Find' },
         },
     },
     icons = {
@@ -172,7 +173,9 @@ local opts = {
     },
     debug = false, -- enable wk.log in the current directory
 }
-require('which-key').setup(opts)
+local whichKey = require('which-key')
+whichKey.setup(opts)
+
 vim.api.nvim_set_hl(0, 'WhichKey', { bg = 'NONE' })
 vim.api.nvim_set_hl(0, 'WhichKeyBorder', { bg = 'NONE' })
 vim.api.nvim_set_hl(0, 'WhichKeyDesc', { bg = 'NONE' })

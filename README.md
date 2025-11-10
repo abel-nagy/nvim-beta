@@ -13,7 +13,11 @@
 - [ ] Add sensible git/github related plugins
     - [ ] LazyGit?
 - [ ] Setup Zig development
+- [ ] Setup Kotlin development
 - [ ] Setup fuzzy finding in files
 - [ ] Setup keymap search
 - [ ] 80 -> 120 line length + show that limit when nearing it in current line (only then)
 - [ ] Setup TODO/HACK highlighting
+- [ ] Create/find a solution for dependency handling
+- [ ] Update which-key config to describe unfinished keycombinations (like '<Leader>f' is the starting combination for telescope find commands)
+- [ ] Finalize theming/coloring
