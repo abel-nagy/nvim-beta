@@ -3,7 +3,7 @@ vim.pack.add({
 })
 
 local treesitter = require('nvim-treesitter')
-local ts_languages = { 'lua', 'fish' }
+local ts_languages = { 'lua', 'fish', 'markdown', 'markdown_inline' }
 treesitter.install(ts_languages)
 
 for index, value in ipairs(ts_languages) do

@@ -1,26 +1,38 @@
 vim.pack.add({
-    { src = 'https://github.com/Saghen/blink.cmp' }
+    { src = 'https://github.com/Saghen/blink.cmp', version = 'v1.7.0' },
+    { src = 'https://github.com/L3MON4D3/LuaSnip' },
+    { src = 'https://github.com/rafamadriz/friendly-snippets' },
 })
 
-require('blink.cmp').setup({
-    keymap = { preset = 'default' },
-    appearance = {
-        use_nvim_cmp_as_default = false,
-        nerd_font_variant ='mono',
-    },
+---@module 'blink.cmp'
+---@type blink.cmp.Config
+local opts = {
+    appearance = { use_nvim_cmp_as_default = false },
     completion = {
-        documentation = { auto_show = true },
+        keyword = { range = 'full' },
+        documentation = {
+            auto_show = true,
+            treesitter_highlighting = true
+        },
         accept = { auto_brackets = { enabled = true } },
-        ghost_text = { enabled = true }
+        ghost_text = { enabled = false },
+        list = { selection = { auto_insert = false } }
     },
-    sources = {
-        default = { 'lsp', 'path', 'snippets', 'buffer' }
-    },
+    sources = { default = { 'lsp', 'path', 'snippets', 'buffer' } },
     signature = {
         enabled = true,
         window = {
+            border = 'rounded',
             show_documentation = false
         }
     },
-    fuzzy = { implementation = 'prefer_rust_with_warning' },
-})
+    cmdline = {
+        keymap = { preset = 'inherit' },
+        completion = { menu = { auto_show = true } }
+    },
+    snippets = {
+        preset = 'luasnip'
+    }
+}
+
+require('blink.cmp').setup(opts)

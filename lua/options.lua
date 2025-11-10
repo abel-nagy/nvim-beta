@@ -12,7 +12,7 @@ options.autoindent = true
 ------------------------ Behavior ------------------------
 options.clipboard = 'unnamedplus'
 options.completeopt = { 'menu', 'menuone', 'noselect' }
-options.mouse = 'a'                     -- allow the mouse to be used in nvim
+options.mouse = ''
 options.swapfile = false
 options.backup = false
 options.undofile = true
@@ -24,7 +24,11 @@ options.confirm = true
 options.encoding = 'utf-8'
 options.fileencoding = 'utf-8'
 options.inccommand = 'nosplit'
---vim.o.sessionoptions = 'blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions'      -- 'rmagatti/auto-session.nvim' told me to set this option 'For the best experience'
+options.wrap = false
+options.backspace = { 'start', 'eol', 'indent' }
+options.isfname:append('@-@')
+options.updatetime = 50
+options.colorcolumn = '80'
 
 ------------------------ Visual ------------------------
 options.termguicolors = true
@@ -38,7 +42,7 @@ options.sidescrolloff = 8
 options.splitbelow = true
 options.splitright = true
 options.hlsearch = false
-options.winborder = 'rounded'       -- Set the default border for all floating windows
+options.winborder = 'rounded'
 vim.g.have_nerd_font = true
 vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
 
